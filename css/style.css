@@ -1,0 +1,44 @@
+/* commad / para abrir comentário */
+
+body {
+    /* Centralizar textos */
+    text-align: center;
+    /* Imagem de fundo */
+    background-image: url(https://bit.ly/3g7ht7X);
+    /* Remover repetição */
+    background-repeat: no-repeat;
+    /* Posicionamento */
+    background-position: center;
+    /* Altura do body */
+    height: 100vh;
+    /* Tamanho da imagem */
+    background-size: 500px;
+    /* Fixar a imagem de fundo */
+    background-attachment: fixed;
+    /* Cor de fundo */
+    background-color: black;
+}
+
+/* Personalizar o título */
+h1 {
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Personalizar os subtítulos */
+/* id */
+#green {
+    color: #00FF00;
+    font-style: italic;
+}
+
+#blue {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+ /* class */
+.colors {
+    color: darkblue;
+    font-size: 24px;
+}
