@@ -1,44 +1,120 @@
 /* commad / para abrir comentário */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+/* RESET CSS */
+html * {
+    margin: 0;
+}
+
 body {
+    margin: 0;
     /* Centralizar textos */
     text-align: center;
     /* Imagem de fundo */
-    background-image: url(https://bit.ly/3g7ht7X);
+    background-image: url(https://bit.ly/2TBBkmP);
     /* Remover repetição */
     background-repeat: no-repeat;
     /* Posicionamento */
-    background-position: center;
+    background-position: right;
     /* Altura do body */
     height: 100vh;
     /* Tamanho da imagem */
-    background-size: 500px;
+    background-size: 300px;
     /* Fixar a imagem de fundo */
     background-attachment: fixed;
     /* Cor de fundo */
-    background-color: black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: rgb(218, 217, 217);
+    border-radius: 8px;
+    padding: 4px;
+    border: solid 1px rgb(157, 157, 157);
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#home {
+    margin-top: 15%;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+}
+
+#pesquisa {
+    margin-top: 18%;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+}
+
+#contato {
+    margin-top: 21%;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+}
+
+#registro {
+    margin-top: 24%;
+    width: 35px;
+    height: 35px;
+    position: fixed;
 }
 
 /* Personalizar o título */
-h1 {
-    color: #FF0000;
-    font-family: Arial, Helvetica, sans-serif;
+#cabecalho {
+    background-color: #986cd5;
+    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Personalizar os subtítulos */
-/* id */
-#green {
-    color: #00FF00;
-    font-style: italic;
+#conteudo {
+    height: 80vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#blue {
-    color: #0000FF;
-    font-weight: bold;
+#boxconteudo {
+    margin: 50px;
+    margin-left: 150px;
+    width: 800px;
+    height: 800px;
 }
 
- /* class */
-.colors {
-    color: darkblue;
-    font-size: 24px;
+#conteudo  h3{
+    color: #1c1a1a;
+}
+
+#rodape {
+    color: rgb(12, 12, 12);
+    background-color: #9f75d8;
+}
+
+.barra {
+    position: fixed;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 18%;
+    margin-bottom: 20%;
+}
+
+.icones2 {
+    display: block;
+    width: 22px;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+}
+
+.icones {
+    width: 25px;
 }
